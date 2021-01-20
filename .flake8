@@ -1,0 +1,4 @@
+[flake8]
+unused-arguments-ignore-abstract-functions = True
+ignore = W504 ANN101
+max-line-length = 120

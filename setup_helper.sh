@@ -1,0 +1,16 @@
+#! /bin/bash -e
+
+echo "# One option for setting up environment."
+echo "# "
+echo "# Paste to setup Anaconda environment:"
+echo "conda create -n pyhello python=3.8"
+echo "conda activate pyhello"
+echo "# "
+echo "# Paste to install requirements, reactivate conda"
+echo "pip install -r requirements.txt"
+echo "conda deactivate"
+echo "conda activate pyhello"
+echo "# "
+echo "# Add alias 'pyh' to add repo path to PYTHONPATH:"
+echo "alias pyh=\"export PYTHONPATH=${PWD}\""
+echo "pyh"
