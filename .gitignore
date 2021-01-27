@@ -1,0 +1,6 @@
+*.vimrc
+*.ctags
+*.tags
+*.swp
+*~
+*__pycache__*
